@@ -1,0 +1,270 @@
+header{
+    display:flex;
+    justify-content:space-between;
+    font-family: Arial;
+    font-size: 20px;
+    background-color:white;
+    color:black;
+    padding:10px;
+}
+.header-title{
+    font-size: 25px;
+    font-weight:bold;
+    font-family: impact regular;
+    color:palegoldenrod;
+}
+header span{
+    margin-right: 20px;
+}
+article{
+    margin-top:20px;
+    text-align:center;
+    background-color:black;
+    color:white;
+    padding:10px;
+}
+.bi-lightning-fill{
+    color:goldenrod;
+}
+section{
+    height:2000px;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 28px;
+    font-family:verdana;
+    color:white;
+    margin-bottom:20px;
+}
+footer{
+    display:grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+    background-color:black;
+    color:gray;
+    padding:200px;
+    
+}
+.title{
+    color:white;
+    margin-bottom:20px;
+}
+.title~div{
+    margin-bottom:15px;
+}
+.women{
+    background-image:url("Images/women\ fashion.jpg");
+    background-size:cover;
+}
+.men{
+    background-image: url("Images/men\ fashion.jpg");
+    background-size: cover;
+}   
+.kids{
+    background-image:url("Images/kids\ fashion.jpg");
+    background-size:cover;
+}
+main{
+    display:grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    height:600px;
+    margin-top:20px;
+}
+.men,.women,.kids{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    opacity: 0.7;
+}
+.men:hover{
+    opacity: 1;
+}
+.women:hover{
+    opacity: 1;
+}
+.kids:hover{
+    opacity:1;
+}
+.title{
+    font-size:30px;
+    font-family: tahoma;
+    font-weight:bold;
+    text-shadow:2px 2px 2px 2px;
+}
+button{
+    height:40px;
+    width:150px;
+    background-color: white;
+    margin-top: 150px;
+    border:none;
+}
+.features{
+    display:grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    margin-top: 50px;
+    padding-left:50px;  
+    padding-right:50px;
+    font-family:Arial;
+}
+.f-title{
+    font-weight:bold;
+    margin-bottom:15px;
+}
+.f-title span{
+    color:red;
+    margin-right:10px;
+}
+.main-banner{
+    text-align: center;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.main-title{
+    font-size:small;
+    font-family:arial;
+    font-weight:bold;
+    color:gray;
+    margin-bottom:20px;
+}
+.sub-title{
+    font-size:35px;
+    font-family:arial;
+    margin-bottom:20px;
+}
+.main-text{
+    color:gray;
+    font-size:16px;
+}
+.banner-row-1{
+    display:grid;
+    grid-template-columns: 4fr 8fr;
+    height: 400px;
+}
+.row-1-left{
+    background-image: url("./Images/women\'s\ bag.jpg");
+    background-size:cover;
+    margin-left:80px;
+}
+.row-1-right{
+    background-image:url("Images/printed\ shirts.jpg");
+    background-size: cover;
+    margin-right:20px;
+    margin-left:20px;
+    position:relative;
+}
+.offer{
+    position:absolute;
+    right:20px;
+    top:20px;
+    background-color:red;
+    color:white;
+    height:60px;
+    width:60px;
+    padding:10px;
+    border-radius:50px;
+    font-size:20px;
+    text-align:center;
+    font-weight:bold;
+}
+.row-1-left-title,.row-1-right-title{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin-top:150px;
+    color:white;
+    font-weight:bold;
+    font-family: tahoma;
+    font-size:30px;
+    text-align:center;
+}   
+.banner-row-2{
+    display:grid;
+    grid-template-columns:8fr 4fr;
+    height:450px;
+    padding:60px;
+    margin-left:20px;
+}
+.row-2-left{
+    background-image:url("Images/Basic\ women\ dress.jpg");
+    background-size:cover;
+    width:100%;
+}
+.row-2-right{
+    background-image: url("Images/Sweatishirts.webp");
+    width:100%;
+    margin-left:20px;
+}
+.rwo-2-left-title,.row-2-right-title{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin-top:150px;
+    color:white;
+    font-weight:bold;
+    font-family: tahoma;
+    font-size:30px;
+    text-align:center;
+}
+.main-banner-2{
+    text-align:center;
+}
+.banner-title-2{
+    font-size:30px;
+    font-family: tahoma;
+    margin-bottom:20px;
+}
+.banner-sub-title-2 span{
+    margin-right: 20px;
+    color:red;
+    font-family:tahoma;
+}
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left:55px;
+}
+.card{
+    width:300px;
+    margin:20px;
+    padding:5px;
+}
+.card img{
+    width:100%;
+}
+.card-footer{
+    margin-top:10px;
+}
+.card-name{
+    color:gray;
+    font-size:small;
+    font-family: tahoma;
+}
+.card-title{
+    font-weight:200;
+    font-family: tahoma;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.card-price{
+    color:gray;
+    font-family:tahoma;
+}
+.bi-instagram{
+    margin-right:10px;
+}
+.bi-twitter{
+    margin-right:10px;
+}
+.bi-youtube{
+    margin-right:10px;
+}
+.bi-facebook{
+    margin-right:10px;
+}
+.icon{
+    font-size: 20px;
+}
